@@ -1,0 +1,147 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  max-width: 1440px;
+  border: 25px solid #2B81AC;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: #3399CC;
+}
+
+header {
+  padding: 40px 0 0 108px;
+
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    h1 {
+      margin: 0;
+      font-size: 21px;
+      font-weight: normal;
+      color: #fff;
+    }
+
+    img {
+      width: 35px;
+      height: 35px;
+      filter: invert(1);
+    }
+  }
+}
+
+main {
+
+  .container {
+    padding: 35px 108px;
+  }
+
+  ul {
+    border: 2px solid #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    color: #fff;
+
+    li {
+      text-align: center;
+      align-content: center;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      font-size: 22px;
+      height: 147px;
+
+      img {
+        width: 55px;
+        height: 55px;
+        filter: invert(1);
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .lisbon {
+    background-color: #71B8DB;
+    border: 2px solid #fff;
+    width: 50%;
+  }
+
+  .paris {
+    background-color: #71DBDB;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .belgrade {
+    background-color: #B894B8;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .venice {
+    background-color: #C24747;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .telaviv {
+    background-color: #EB9581;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .cair {
+    background-color: #FFDB94;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .newyork {
+    background-color: #B8DBB8;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .newdelhi {
+    background-color: #94B8B8;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .sanfran {
+    background-color: #DB94B8;
+    border: 2px solid #fff;
+    width: 50%;
+  }
+
+  .tokyo {
+    background-color: #71B894;
+    border: 2px solid #fff;
+    width: 25%;
+  }
+
+  .sydney {
+    background-color: #9494B8;
+    border: 2px solid #fff;
+    width: 100%;
+  }
+
+}
+
+footer {
+
+  p {
+    margin: 0;
+    padding-left: 108px;
+    padding-bottom: 92px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+}
