@@ -64,72 +64,79 @@ main {
         vertical-align: middle;
       }
     }
-  }
 
-  .lisbon {
-    background-color: #71B8DB;
-    border: 2px solid #fff;
-    width: 50%;
-  }
+    li:hover {
+      opacity: 0.5;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+    }
 
-  .paris {
-    background-color: #71DBDB;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .lisbon {
+      background-color: #71B8DB;
+      border: 2px solid #fff;
+      width: 50%;
+    }
 
-  .belgrade {
-    background-color: #B894B8;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .paris {
+      background-color: #71DBDB;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .venice {
-    background-color: #C24747;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .belgrade {
+      background-color: #B894B8;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .telaviv {
-    background-color: #EB9581;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .venice {
+      background-color: #C24747;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .cair {
-    background-color: #FFDB94;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .telaviv {
+      background-color: #EB9581;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .newyork {
-    background-color: #B8DBB8;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .cair {
+      background-color: #FFDB94;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .newdelhi {
-    background-color: #94B8B8;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .newyork {
+      background-color: #B8DBB8;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .sanfran {
-    background-color: #DB94B8;
-    border: 2px solid #fff;
-    width: 50%;
-  }
+    .newdelhi {
+      background-color: #94B8B8;
+      border: 2px solid #fff;
+      width: 25%;
+    }
 
-  .tokyo {
-    background-color: #71B894;
-    border: 2px solid #fff;
-    width: 25%;
-  }
+    .sanfran {
+      background-color: #DB94B8;
+      border: 2px solid #fff;
+      width: 50%;
+    }
 
-  .sydney {
-    background-color: #9494B8;
-    border: 2px solid #fff;
-    width: 100%;
+    .tokyo {
+      background-color: #71B894;
+      border: 2px solid #fff;
+      width: 25%;
+    }
+
+    .sydney {
+      background-color: #9494B8;
+      border: 2px solid #fff;
+      width: 100%;
+    }
+
   }
 
 }
