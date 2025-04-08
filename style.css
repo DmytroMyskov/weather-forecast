@@ -56,6 +56,7 @@ main {
       display: inline-block;
       font-size: 22px;
       height: 147px;
+      transition: all 0.3s ease-in;
 
       img {
         width: 55px;
@@ -63,12 +64,6 @@ main {
         filter: invert(1);
         vertical-align: middle;
       }
-    }
-
-    li:hover {
-      opacity: 0.5;
-      cursor: pointer;
-      transition: all 0.3s ease-in;
     }
 
     .lisbon {
@@ -90,7 +85,7 @@ main {
     }
 
     .venice {
-      background-color: #C24747;
+      background-color: #c46464;
       border: 2px solid #fff;
       width: 25%;
     }
@@ -137,6 +132,12 @@ main {
       width: 100%;
     }
 
+  }
+
+  li:hover,
+  :not(:hover)>li {
+    cursor: pointer;
+    filter: saturate(1.5);
   }
 
 }
